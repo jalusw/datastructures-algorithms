@@ -110,20 +110,6 @@ Complete documentation is available in the `docs` folder:
 - [Stack Structures](docs/stack_structures.md)
 - [Advanced Data Structures](docs/advanced_data_structures.md)
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Resources
 
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
@@ -131,6 +117,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [GeeksforGeeks Data Structures](https://www.geeksforgeeks.org/data-structures/)
 - [OpenDSA Data Structures and Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/)
 
-## Acknowledgements
-
-- Thanks to all contributors who have helped improve these implementations
