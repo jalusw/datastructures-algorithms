@@ -39,6 +39,15 @@ from .bloom_filter import BloomFilter
 from .sparse_table import SparseTable
 
 from .disjoint_set import DisjointSet
+from .fenwick_tree import FenwickTree
+
+from .segment_tree import SegmentTree
+
+from .skip_list import SkipList
+
+from .suffix_tree import SuffixTree, SuffixTreeNode
+
+from .rope import Rope, RopeNode
 
 __all__ = [
     # Basic data structures
@@ -75,6 +84,11 @@ __all__ = [
     'BloomFilter',
     'SparseTable',
     'DisjointSet',
+    'FenwickTree',
+    'SegmentTree',
+    'SkipList',
+    'SuffixTree', 'SuffixTreeNode',
+    'Rope', 'RopeNode',
 ]
 
 __version__ = '0.1.0'
