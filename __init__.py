@@ -38,6 +38,8 @@ from .max_heap import MaxHeap
 from .bloom_filter import BloomFilter
 from .sparse_table import SparseTable
 
+from .disjoint_set import DisjointSet
+
 __all__ = [
     # Basic data structures
     'Array',
@@ -71,7 +73,8 @@ __all__ = [
     
     # Advanced data structures
     'BloomFilter',
-    'SparseTable'
+    'SparseTable',
+    'DisjointSet',
 ]
 
 __version__ = '0.1.0'
