@@ -18,6 +18,7 @@ from .red_black_tree import RedBlackTree, Node as RBNode
 from .b_tree import BTree, Node as BTNode
 from .trie import Trie, TrieNode
 from .hash_table import HashTable, HashNode
+from .graph import Graph, Vertex
 
 # Queue-like data structures
 from .queue import Queue
@@ -52,6 +53,7 @@ __all__ = [
     'BTree', 'BTNode',
     'Trie', 'TrieNode',
     'HashTable', 'HashNode',
+    'Graph', 'Vertex',
     
     # Queue-like data structures
     'Queue',
