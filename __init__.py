@@ -14,6 +14,10 @@ from .binary_search_tree import BinarySearchTree, Node as BSTNode
 from .binary_tree import BinaryTree, Node as BTNode
 from .full_binary_tree import FullBinaryTree
 from .avl_tree import AVLTree, Node as AVLNode
+from .red_black_tree import RedBlackTree, Node as RBNode
+from .b_tree import BTree, Node as BTNode
+from .trie import Trie, TrieNode
+from .hash_table import HashTable, HashNode
 
 # Queue-like data structures
 from .queue import Queue
@@ -44,6 +48,10 @@ __all__ = [
     'BinaryTree', 'BTNode',
     'FullBinaryTree',
     'AVLTree', 'AVLNode',
+    'RedBlackTree', 'RBNode',
+    'BTree', 'BTNode',
+    'Trie', 'TrieNode',
+    'HashTable', 'HashNode',
     
     # Queue-like data structures
     'Queue',
